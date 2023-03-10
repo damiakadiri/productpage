@@ -1,0 +1,19 @@
+.footer {
+  background-color: #0e8388;
+  height: 300px;
+  width: 100%;
+  margin-top: 50px;
+  color: #fff;
+}
+
+.footlinks {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 100px;
+}
+
+.footlinks li {
+  list-style-type: none;
+  cursor: pointer;
+}
